@@ -9,4 +9,4 @@ def composition(number: int) -> list:
         list.append(chislo)
     return list
 n = int(input('Введите число N: '))
-print('Набор произведений от 1 до N:\n{composition(n)}')
+print(f'Набор произведений от 1 до N:\n{composition(n)}')
